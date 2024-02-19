@@ -231,7 +231,6 @@ body.nav-active { overflow: hidden; }
 
 .size-title{
   font-size: 1.3em !important;
-  text-align: left;
 }
 
 .title-1 { font-size: var(--fontSize-title-1); }
