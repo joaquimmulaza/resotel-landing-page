@@ -14,6 +14,11 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+::selection {
+  color: #fff;
+  background: #e85136;
+}
+
 :root {
 
   /**
@@ -614,12 +619,14 @@ body.nav-active { overflow: hidden; }
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
+  margin-top: -50px;
 }
 
 .header.active {
   padding-block: 20px;
   background-color: var(--eerie-black-4);
   border-color: var(--black-alpha-15);
+  margin-top: -10px;
 }
 
 .header.hide {
