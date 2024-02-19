@@ -229,6 +229,11 @@ body.nav-active { overflow: hidden; }
   line-height: var(--lineHeight-6);
 }
 
+.size-title{
+  font-size: 1.3em !important;
+  text-align: left;
+}
+
 .title-1 { font-size: var(--fontSize-title-1); }
 
 .title-2 { font-size: var(--fontSize-title-2); }
@@ -1225,9 +1230,13 @@ textarea.input-field {
 
 .feature-card { padding: 30px 20px 40px; }
 
-.feature-item:nth-child(2n+1) .feature-card { background-color: var(--eerie-black-3); }
+.feature-item:nth-child(2n+1) .feature-card { 
+  background-color: #55525283; 
+  height: 330px;
+  border-radius: 4px;
+}
 
-.feature-item:nth-child(2n) .feature-card { background-color: var(--smoky-black-3); }
+.feature-item:nth-child(2n) .feature-card { background-color: #55525283; height: 330px; border-radius: 4px;}
 
 .feature-card .card-icon {
   max-width: max-content;
