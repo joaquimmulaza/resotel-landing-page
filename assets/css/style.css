@@ -777,10 +777,6 @@ body.nav-active { overflow: hidden; }
   pointer-events: all;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
@@ -903,10 +899,6 @@ body.nav-active { overflow: hidden; }
 
 .hero .slider-item.active .btn { animation-delay: 2s; }
 
-
-
-
-
 /*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
@@ -949,10 +941,6 @@ body.nav-active { overflow: hidden; }
 .service-card:is(:hover, :focus-within) .card-banner { transform: scale(1.05); }
 
 .service .card-title { margin-block-end: 12px; }
-
-
-
-
 
 /*-----------------------------------*\
   #ABOUT
@@ -1237,12 +1225,12 @@ textarea.input-field {
 .feature-card { padding: 30px 20px 40px; }
 
 .feature-item:nth-child(2n+1) .feature-card { 
-  background-color: #55525283; 
+  background-color: #56595c; 
   height: 330px;
-  border-radius: 4px;
+  border-radius: 7px;
 }
 
-.feature-item:nth-child(2n) .feature-card { background-color: #55525283; height: 330px; border-radius: 4px;}
+.feature-item:nth-child(2n) .feature-card { background-color: #56595c; height: 330px; border-radius: 7px;}
 
 .feature-card .card-icon {
   max-width: max-content;
