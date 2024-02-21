@@ -68,7 +68,7 @@ const hideHeader = function () {
 }
 
 window.addEventListener("scroll", function () {
-  if (window.scrollY >= 330) {
+  if (window.scrollY >= 0) {
     header.classList.add("active");
     backTopBtn.classList.add("active");
     hideHeader();
