@@ -239,6 +239,9 @@ body.nav-active { overflow: hidden; }
 }
 
 .title-1 { font-size: var(--fontSize-title-1); }
+.title-footer{
+  font-size: 1.7em !important;
+}
 
 .title-2 { font-size: var(--fontSize-title-2); }
 
