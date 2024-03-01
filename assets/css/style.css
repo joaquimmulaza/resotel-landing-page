@@ -26,7 +26,7 @@
    */
 
   --gold-crayola: #e85136;
-  --quick-silver: hsla(0, 0%, 65%, 1);
+  --quick-silver: #E0E0E0;
   --davys-grey: hsla(30, 3%, 34%, 1);
   --smoky-black-1: hsla(40, 12%, 5%, 1);
   --smoky-black-2: hsla(30, 8%, 5%, 1);
@@ -489,7 +489,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .input-field {
-  background-color: var(--eerie-black-2);
+  background-color: #333;
   color: var(--white);
   height: 56px;
   padding: 10px 20px;
@@ -630,7 +630,7 @@ body.nav-active { overflow: hidden; }
 
 .header.active {
   padding-block: 20px;
-  background-color: var(--eerie-black-4);
+  background-color: #f7f7f7;
   border-color: var(--black-alpha-15);
   margin-top: -10px;
 }
@@ -1310,7 +1310,10 @@ textarea.input-field {
 }
 
 
-
+.tweets{
+  margin: 0 auto;
+  width: 80%;
+}
 
 
 /*-----------------------------------*\
@@ -1322,13 +1325,13 @@ textarea.input-field {
 .footer-brand {
   position: relative;
   padding: 50px 40px;
-  background: var(--smoky-black-1) url("../images/footer-form-bg.png");
+  background: #414242;
   background-position: center top;
   background-repeat: repeat;
 }
 
 .footer{
-  background-color: var(--eerie-black-4);
+  background-color: #464747;
 }
 
 .footer-brand::before,
