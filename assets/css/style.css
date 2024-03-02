@@ -899,11 +899,15 @@ body.nav-active { overflow: hidden; }
 
 .hero .slider-item.active .section-subtitle { animation-delay: 500ms; }
 
-.hero .slider-item.active .hero-title { animation-delay: 1000ms; text-shadow: 1px 8px 8px  #3333335e;}
+.hero .slider-item.active .hero-title { animation-delay: 1000ms;}
 
 .hero .slider-item.active .hero-text { animation-delay: 1.5s; }
 
 .hero .slider-item.active .btn { animation-delay: 2s; }
+
+.hero-title{
+  text-shadow: 1px 8px 8px  #3333335e;
+}
 
 /*-----------------------------------*\
   #SERVICE
