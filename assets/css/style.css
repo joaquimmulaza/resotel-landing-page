@@ -398,9 +398,9 @@ body.nav-active { overflow: hidden; }
   color: var(--black);
 }
 
-.btn-secondary::before { background-color: var(--smoky-black-1); }
+.btn-secondary::before { background-color: #292929; }
 
-.btn-secondary .text-2 { color: #56595c; }
+.btn-secondary .text-2 { color: #fff; }
 
 .has-before,
 .has-after {
@@ -1193,6 +1193,11 @@ body.nav-active { overflow: hidden; }
 .form-right .body-4 {
   color: var(--quick-silver);
   line-height: var(--lineHeight-3);
+}
+
+#location{
+  text-decoration: underline;
+  text-decoration-color: #ddd;
 }
 
 .form-right .body-4:not(:last-child) { margin-block-end: 25px; }
